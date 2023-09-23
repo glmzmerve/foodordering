@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="yemekMenu">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="8" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="50" left="20" bottom="30" right="40"/>
+    <constraints>
+      <xy x="197" y="129" width="861" height="498"/>
+    </constraints>
+    <properties>
+      <background color="-6742452"/>
+    </properties>
+    <border type="none">
+      <title-color color="-4473925"/>
+    </border>
+    <children>
+      <component id="b6e4a" class="javax.swing.JButton" binding="siparis">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15817720"/>
+          <font name="JetBrains Mono" size="20" style="0"/>
+          <foreground color="-14726824"/>
+          <text value="Sipariş Ver"/>
+        </properties>
+      </component>
+      <component id="dfcc1" class="javax.swing.JLabel" binding="lb1">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="24" style="0"/>
+          <text value="Masa Numarası:"/>
+        </properties>
+      </component>
+      <component id="b5f9c" class="javax.swing.JComboBox" binding="cb2">
+        <constraints>
+          <grid row="5" column="2" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4155441"/>
+          <font name="Bookman Old Style" size="14" style="1"/>
+          <model>
+            <item value="KÜNEFE..............85tl"/>
+            <item value="DONDURMA(sade)............20tl"/>
+            <item value="DONDURMA(çikolatalı)......20tl"/>
+            <item value="DONDURMA(limonlu).........20tl"/>
+            <item value="PASTA (çilekli)..........55tl"/>
+            <item value="PASTA (çikolatalı).......55tl"/>
+            <item value="TİRAMİSU.............50tl"/>
+          </model>
+          <toolTipText value="Tatlılar"/>
+        </properties>
+      </component>
+      <component id="8dc68" class="javax.swing.JTextField" binding="textF1">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="24"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="657b5" class="javax.swing.JComboBox" binding="cb3">
+        <constraints>
+          <grid row="3" column="3" row-span="4" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4155441"/>
+          <font name="Bookman Old Style" size="14" style="1"/>
+          <model>
+            <item value="SU....................5tl"/>
+            <item value="AYRAN.................15tl"/>
+            <item value="KOLA..................20tl"/>
+            <item value="ÇAY...................8tl"/>
+            <item value="SODA..................10tl"/>
+          </model>
+          <toolTipText value="İçecekler"/>
+        </properties>
+      </component>
+      <component id="d69b8" class="javax.swing.JLabel" binding="lb3">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-460552"/>
+          <font name="Algerian" size="20" style="2"/>
+          <foreground color="-460552"/>
+          <labelFor value="b5f9c"/>
+          <text value="TATLILAR"/>
+        </properties>
+      </component>
+      <component id="af738" class="javax.swing.JLabel" binding="lb2">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Algerian" size="20" style="2"/>
+          <foreground color="-460552"/>
+          <horizontalAlignment value="10"/>
+          <labelFor value="174f9"/>
+          <text value="YEMEKLER"/>
+        </properties>
+      </component>
+      <component id="a680b" class="javax.swing.JLabel" binding="lb4">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Algerian" size="20" style="2"/>
+          <foreground color="-460552"/>
+          <labelFor value="657b5"/>
+          <text value=" İÇECEKLER"/>
+        </properties>
+      </component>
+      <component id="174f9" class="javax.swing.JComboBox" binding="cb1">
+        <constraints>
+          <grid row="4" column="0" row-span="4" col-span="2" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4155441"/>
+          <font name="Bookman Old Style" size="14" style="1"/>
+          <model>
+            <item value="HAMBURGER  (tavuk)......60tl"/>
+            <item value="HAMBURGER  (dana).......75tl"/>
+            <item value="KEBAP......75tl"/>
+            <item value="LAHMACUN ......30tl"/>
+            <item value="PİDE(karışık)......130tl"/>
+            <item value="PİDE(kıymalı)......90tl"/>
+            <item value="PİZZA(karışık) ......90tl"/>
+            <item value="PİZZA(margarita).....85tl"/>
+          </model>
+          <toolTipText value="Yemekler"/>
+        </properties>
+      </component>
+      <component id="d5f5b" class="javax.swing.JLabel" binding="img1" custom-create="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="7fd7c" class="javax.swing.JLabel" binding="img2" custom-create="true">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="cb74e" class="javax.swing.JLabel" binding="img3" custom-create="true">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
